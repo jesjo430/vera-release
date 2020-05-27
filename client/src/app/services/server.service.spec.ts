@@ -1,0 +1,23 @@
+import {TestBed} from '@angular/core/testing';
+import {HttpClientTestingModule} from "@angular/common/http/testing";
+import {ServerService} from './server.service';
+
+describe('ServerService', () => {
+  let service: ServerService;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [
+        HttpClientTestingModule,
+      ],
+      providers: [
+        ServerService
+      ]
+    });
+    service = TestBed.inject(ServerService);
+  });
+
+  it('should be created', () => {
+    expect(service).toBeTruthy();
+  });
+});

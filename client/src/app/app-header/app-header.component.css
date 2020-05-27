@@ -1,0 +1,53 @@
+.mat-app-menu {
+  font-size: 48px;
+  color: white;
+}
+
+::ng-deep.mat-menu-content:not {
+  padding: 0;
+}
+
+.name-container {
+  line-height: 48px;
+  display: flex;
+}
+
+.current-view {
+  color: white;
+  font-size: 32px;
+}
+
+.notice-menu-button {
+  width: 100px;
+  height: 32px;
+  background: #009688;
+  position: absolute;
+  right: 32px;
+  border: none;
+  top: 8px;
+  display: flex;
+}
+
+::ng-deep.notice-menu {
+  max-width: none !important;
+  max-height: 325px !important;
+}
+
+.notice-menu {
+  width: 100%;
+}
+
+.notice-icon {
+  color: white;
+}
+
+.empty-notice-list {
+  width: 300px;
+  height: 70px;
+  color: #cccccc;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
